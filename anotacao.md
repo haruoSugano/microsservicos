@@ -1,4 +1,6 @@
-# Microsserviços
+# Microsserviços Intro
+
+## Configurando ambiente
 
 Realizar a instalaçao nas duas pastas lembretes e observacoes
 
@@ -10,7 +12,7 @@ npm install express
 ```
 
 ## nodemon
-* Dependencia somente em desenvolvimento;
+* instalar como dependencia somente em desenvolvimento;
 * Monitorar o desenvolvimento.
 
 ```shell
@@ -18,18 +20,13 @@ npm install nodemon -D
 ```
 ## Executando o nodemon
 
-* Na pasta lembretes, adicionar um trecho do código
+* Na pasta lembretes e observacoes, abra o arquivo `package.json` adicionar um trecho de código:
+```json
+  "start": "nodemon index.js"
+```
+* Ficando assim:
 ```json
 "scripts": {
     "start": "nodemon index.js"
   }
 ```
-
-No terminal, execute:
-```shell
-    npm start
-```
-
-## Na ferramento Postman
-
-* Colocar a rota: http://localhost:4000/lembreteshttp://localhost:4000/lembretes
