@@ -12,6 +12,8 @@ cd lembretes
 npm install
 ```
 
+### Abra outro terminal e navegue ate a pasta microsservico
+
 ```
 cd observacoes
 ```
